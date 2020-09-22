@@ -1,0 +1,4 @@
+connectionString=mongodb://cssmongo32:BgW2ov4Bqsg9P0ErucCL2n4obFDSXjgyX4Ee150okMpzuOuSg4disyypXMo9j9Qs8Xkl6gnkr46sSYjykJUvyg==@cssmongo32.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000
+readTargetRegion=East US
+databaseName=testdb
+collectionName=javasample
