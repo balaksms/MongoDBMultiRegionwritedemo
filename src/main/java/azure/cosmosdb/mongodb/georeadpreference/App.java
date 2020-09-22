@@ -13,7 +13,6 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientOptions;
 import com.mongodb.MongoClientURI;
 import com.mongodb.ReadPreference;
-import com.mongodb.MongoClientSettings;
 import com.mongodb.Tag;
 import com.mongodb.TagSet;
 import com.mongodb.client.MongoCollection;
@@ -118,7 +117,6 @@ public class App {
 		optionsBuilder.maxConnectionIdleTime(60000);
 		optionsBuilder.heartbeatConnectTimeout(5000);
 
-		MongoClientSettings
 
 
 		MongoClientURI mongoClientURI = new MongoClientURI(this.connectionString, optionsBuilder);
